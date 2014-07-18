@@ -11,13 +11,14 @@
 </head>
 <body>
 	<div class="container_12">
-	<div id="topo">
-		logo
-		tel
-		email
-		midias sociais
-	</div>
 	<header class="grid_12">
+		<section class="topo">
+			<div class="grid_4">Seu Logotipo aqui</div>
+			<div class="grid_4">(11) 0000 - 0000 / 9 0000-0000</div>
+			<div class="grid_4">E-mail: seuemail@seudominio.com.br</div>
+			<div class="grid_4">Facebook  /  Linkedin  /  Google Plus</div>
+
+		</section>
 		<nav>
 			<ul>
 				<li><a href="#">Página Inicial</a></li>
@@ -33,14 +34,13 @@
 		<form id="contato" action="php/sendForms.php" method="POST">
 			<legend>Dados</legend>
 			<label for="nome">Nome</label>
-<<<<<<< HEAD
+
 			<input type="text" placeholder="Digite um nome..." value="nome">
 			<label for="email">E-mail</label>
 			<input type="email" placeholder="exemplo: seunome@dominio.com" required value="email">
-=======
-			<input type="text" required placeholder="Digite um nome...">
->>>>>>> origin/master
-			<input type="submit" value="enviar nome">
+
+			<textarea name="" id="" cols="30" rows="10" placeholder="Digite uma mensagem..."></textarea>			
+			<input type="submit" value="enviar">
 		</form>
 	</aside>
 
