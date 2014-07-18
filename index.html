@@ -11,6 +11,12 @@
 </head>
 <body>
 	<div class="container_12">
+	<div id="topo">
+		logo
+		tel
+		email
+		midias sociais
+	</div>
 	<header class="grid_12">
 		<nav>
 			<ul>
@@ -24,10 +30,12 @@
 	</header>
 
 	<aside class="grid_4">
-		<form action="">
+		<form id="contato" action="php/sendForms.php" method="POST">
 			<legend>Dados</legend>
 			<label for="nome">Nome</label>
-			<input type="text" placeholder="Digite um nome...">
+			<input type="text" placeholder="Digite um nome..." value="nome">
+			<label for="email">E-mail</label>
+			<input type="email" placeholder="exemplo: seunome@dominio.com" required value="email">
 			<input type="submit" value="enviar nome">
 		</form>
 	</aside>
@@ -49,9 +57,6 @@
 		<p>Endereço</p>
 	</footer>
 	</div>
-
-
-
 </body>
 </head>
 </html>
