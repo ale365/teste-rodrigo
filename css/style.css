@@ -1,0 +1,21 @@
+/**
+* CSS De estudos - Criando site a 4 maos
+*
+* By Ale365 e rccosta
+*
+* @tag valor
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#topo{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: 300;
+	height: 30px;
+	color: #2f3348;
+	background-color: #ecf0f1;
+	padding: 10px 0 10px 0;
+}
