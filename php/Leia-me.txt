@@ -1,0 +1,3 @@
+Este arquivo php so ira rodar num servidor apache, ou um xampp, ou wamp
+sacou?
+
