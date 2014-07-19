@@ -6,23 +6,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
-	<link rel="stylesheet" href="css/master.css"/>
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="container_12">
-	<header class="grid_12">
-		<section id="topo">
-			<div class="grid_4">Seu Logotipo aqui</div>
-			<div class="grid_4"><p><a href="tel:+55 11 0000-0000"></a></p>
-								<p><a href="tel:+55 11 0000-0000">+55 11 0000-0000</a></p>
-			</div>
-			<div class="grid_4"><a href="mailto:seuemail@seudominio.com.br?subject=Contato via topo site">E-mail: seuemail@seudominio.com.br</a></div>
-			<div class="grid_4">Facebook  /  Linkedin  /  Google Plus</div>
+	
+	<header>
+		<section id="topo" class="container_12">
+			<a href="#" class="grid_2">Seu Logotipo Aqui</a>
+			<span class="grid_8">
+				<p><a href="tel:+55 11 0000-0000"></a> | <a href="tel:+55 11 0000-0000">+55 11 0000-0000</a></p>
+				<p><a href="mailto:seuemail@seudominio.com.br?subject=Contato via topo site">E-mail: seuemail@seudominio.com.br</a></p>
+			</span>
 		</section>
-		<nav>
-			<ul>
+		<nav >
+			<ul class="container_12">
 				<li><a href="#">Página Inicial</a></li>
 				<li><a href="#">Sobre a Empresa</a></li>
 				<li><a href="#">MidiaKit</a></li>
@@ -31,45 +29,44 @@
 			</ul>
 		</nav>
 	</header>
+	<div class="container_12">
 
-	<aside class="grid_4">
-		<form id="contato" action="php/sendForms.php" method="POST">
-			<legend>Dados</legend>
-<<<<<<< HEAD
-			<label for="nome">Nome</label>
+		<aside class="grid_4">
+			<form id="contato" action="php/sendForms.php" method="POST">
 
-=======
->>>>>>> origin/master
-			<input type="text" placeholder="Digite um nome..." value="nome">
-			<input type="email" placeholder="exemplo: seunome@dominio.com" required value="email">
-<<<<<<< HEAD
+				<label for="nome">Nome</label>
+				<input type="text" placeholder="Digite um nome...">
 
-			<textarea name="" id="" cols="30" rows="10" placeholder="Digite uma mensagem..."></textarea>			
-			<input type="submit" value="enviar">
-=======
-			<input type="text" required placeholder="Digite um tel..." value="tel">
-			<input type="submit" value="enviar nome">
->>>>>>> origin/master
-		</form>
-	</aside>
+				<label for="nome">E-mail</label>
+				<input type="email" placeholder="exemplo: seunome@dominio.com" required >
 
-	<section class="grid_8">
-		<h1>Testando nosso Arquivo</h1>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis non doloribus facere laboriosam natus esse illum porro dicta quaerat, aliquam minus placeat provident unde maiores dolores, culpa molestiae quam quos.
-		</p>
+				<label for="nome">Telefone</label>
+				<input type="text" required placeholder="Digite um tel..." placeholder="Digite um tel...">
 
-		<ul>
-			<li>Portfolio!</li>
-			<li><a href="http://www.rccosta.com.br" target="blank">www.rccosta.com.br</a></li>
+				<label for="nome">Sua Mensagem</label>
+				<textarea name="" id="" cols="30" rows="10" placeholder="Digite uma mensagem..."></textarea>				
+				<input type="submit" value="enviar nome">
+			</form>
+		</aside>
 
-		</ul>
-	</section>
+		<section class="grid_8">
+			<h1>Testando nosso Arquivo</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis non doloribus facere laboriosam natus esse illum porro dicta quaerat, aliquam minus placeat provident unde maiores dolores, culpa molestiae quam quos.
+			</p>
+
+			<ul>
+				<li>Portfolio!</li>
+				<li><a href="http://www.rccosta.com.br" target="blank">www.rccosta.com.br</a></li>
+
+			</ul>
+		</section>
+
+	</div>
 
 	<footer>
 		<p>Endereço</p>
 	</footer>
-	</div>
 </body>
 </head>
 </html>

@@ -6,30 +6,112 @@
 * @tag valor
 */
 
+@import "grid.css";
+@import "reset.css";
+
 body{
 	margin: 0;
 	padding: 0;
 }
 
-#topo{
+/*XXXXXXXXXXXXXXXXX  Header XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+header{
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-weight: 300;
 	height: 30px;
 	color: #2f3348;
 	background-color: #ecf0f1;
-	padding: 10px 0 10px 0;
+	padding: 20px 0;
+
 }
 
-	#topo{
-		-webkit-box-shadow: 0px 3px 5px #c2c2c2;
-		   -moz-box-shadow: 0px 3px 5px #c2c2c2;
-		        box-shadow: 0px 3px 5px #c2c2c2;
-	}
-	#topo{
-		font-weight: 14px;
-		text-align: right;
-	}
-	#topo a{
-		text-decoration: none;
-		color: #3f0201;
-	}
+header section#topo{
+	font-weight: 14px;
+	text-align: right;
+
+}
+
+header section#topo a{
+	text-decoration: none;
+	color: #3f0201;
+}
+
+header section#topo span{
+	display: block;
+}
+
+/*XXXXXXXXXXXXXXXXX  MENU XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+nav{
+	background: #8dc63f;
+	float: left;
+	height: 40px;
+	margin: 20px 0;
+	width: 100%;
+
+	-webkit-box-shadow: 0px 3px 5px #c2c2c2;
+	-moz-box-shadow: 0px 3px 5px #c2c2c2;
+	box-shadow: 0px 3px 5px #c2c2c2;
+}
+
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+}
+
+nav ul li a{
+	background: #8dc63f;
+	color: #0d688b;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 15px;
+}
+
+nav ul li a:hover{
+	background: #0d688b;
+	color: #8dc63f;
+}
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Fomulário XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+label{
+	color: #0d688b;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-transform: uppercase;
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea {
+	border: 1px solid #faf4f4;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 280px;
+
+}
+
+input[type="submit"]{
+	border:none;
+	background: #8dc63f;
+	color: #0d688b;
+	padding: 10px;
+	width: 300px;
+}
+
+input[type="submit"]:hover{
+	background: #0d688b;
+	color: #8dc63f;
+}
+	
