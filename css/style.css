@@ -115,3 +115,15 @@ input[type="submit"]:hover{
 	color: #8dc63f;
 }
 	
+
+/*XXXXXXXXXXXXXXXXXXX RODAPE*/
+
+footer{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	background: #1a1a1a;
+	color: #8dc63f;
+	float: left;
+	padding: 20px 0;
+	margin-top: 20px;
+	width: 100%;
+}
