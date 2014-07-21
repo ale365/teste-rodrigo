@@ -2,8 +2,6 @@
 
 // IF VERIFICA SE EXISTE LGUMAS DESSAS VARIAVEIS
 if(isset($_POST['nome']) || isset($_POST['email']) || isset($_POST['tel'])){
-	header('Location:index.html');
-}else{
 // Declarando as Variaveis
 	$nome 	=	'';
 	$email	=	'';
@@ -21,6 +19,8 @@ if(isset($_POST['nome']) || isset($_POST['email']) || isset($_POST['tel'])){
 	echo $tel.' ===> Este e o Telefone do sujeito<br>';
 	echo $meg.' ===> Este e o Mensagem do fulano';
 	exit;
+}else{
+	header('Location:../index.html');
 }
 
 ?>
